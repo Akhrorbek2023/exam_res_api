@@ -16,7 +16,7 @@ const options = document.querySelectorAll("option");
 let allCountriesData;
 
 filterByRegion.addEventListener("change", (e) => {
-    fetch(`https://restcountries.com/v3.1/region/${options.value}`)
+    fetch(`https://restcountries.com/v3.1/region/${filterByRegion.value}`)
       .then((res) => res.json())
       .then(renderCountries);
   });
