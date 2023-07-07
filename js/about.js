@@ -52,11 +52,7 @@ function showCountries(dat) {
      </div>
      </div>
      <div class=="border"><p><strong>Border Countries:</strong>
-     <span>${country.borders[0]}</span>
-     <span>${country.borders[1]}</span>
-     <span>${country.borders[2]}</span>
-     <span>${country.borders[3]}</span>
-     <span>${country.borders[4]}</span>
+     <span>${country.borders}</span>
      </p></div></div>`
      wrap.innerHTML = wrap.innerHTML + showPage.innerHTML
     });
